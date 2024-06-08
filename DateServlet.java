@@ -2,6 +2,7 @@ package com.vsics.fs;
 import java.io.*;
 import javax.servlet.*;
 import java.util.Date;
+//this is a code to fetch date
  public class DateServlet extends GenericServlet
  {
 	 public void service(ServletRequest req,ServletResponse res)throws ServletException,IOException{
