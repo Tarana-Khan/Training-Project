@@ -9,6 +9,7 @@ import java.util.Date;
 		 res.setContentType("text/html");
 		 PrintWriter pw=res.getWriter();
 		 Date d1=new Date();
+		 // this function print date and time
 		 pw.println("<h1><center> hello servlet this is current date and time::"+d1 +"</center></h1>");
 		 pw.close();
  }
